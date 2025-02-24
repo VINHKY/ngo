@@ -1,0 +1,17 @@
+package com.ngovinhky;
+
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        // In bảng cửu chương từ 1 đến 10 theo hàng dọc
+        System.out.println("BẢNG CỬU CHƯƠNG THEO HÀNG DỌC:\n");
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("BẢNG CỬU CHƯƠNG " + i + ":");
+            for (int j = 1; j <= 10; j++) {
+                // In từng phép tính trên một dòng riêng biệt
+                System.out.println(i + " x " + j + " = " + (i * j));
+            }
+            System.out.println(); // Dòng trống giữa các bảng
+        }
+    }
+}
